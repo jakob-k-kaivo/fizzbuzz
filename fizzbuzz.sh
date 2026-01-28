@@ -3,11 +3,11 @@
 i=1
 while [ $i -le 100 ]; do
 	if [ $((i % 15)) -eq 0 ]; then
-		echo fizzbuzz
+		echo FizzBuzz
 	elif [ $((i % 5)) -eq 0 ]; then
-		echo buzz
+		echo Buzz
 	elif [ $((i % 3)) -eq 0 ]; then
-		echo fizz
+		echo Fizz
 	else
 		echo $i
 	fi
